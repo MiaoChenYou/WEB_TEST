@@ -1,0 +1,12 @@
+html {
+  color: aqua;
+}
+div,#text01 {
+  color: brown;
+}
+@media screen and (max-width: 768px){
+    #text01{
+        font-size: 50px;
+    }
+    
+}
