@@ -8,5 +8,10 @@ div,#text01 {
     #text01{
         font-size: 50px;
     }
-    
+}
+div :hover {
+    font-size: 70px;
+}
+
+em::after{content: "香蕉"; font-size: 5px; font-weight: bolder;
 }
