@@ -32,3 +32,8 @@ for (let i = 1; i <= 10; i++) {
   console.log(i)
 }
 console.log("loop end", sum)
+
+let countBMI = (height: number, weight: number) => {
+  return weight/(height*height)
+}
+console.log(countBMI(1.75,70))
