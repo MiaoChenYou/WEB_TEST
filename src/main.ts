@@ -19,3 +19,16 @@ if (resetBtn && textarea) {
   })
 }
 console.log("hellow word")
+let a = 10
+let b = 20
+let c = 30
+if (a + b > c || a + c > b || b + c > a) { console.log("is a triangle") }
+else { console.log("not a fkn triangle")}
+
+console.log("loop start")
+let sum = 0
+for (let i = 1; i <= 10; i++) {
+  sum = sum + i
+  console.log(i)
+}
+console.log("loop end", sum)
