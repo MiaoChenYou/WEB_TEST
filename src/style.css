@@ -1,0 +1,39 @@
+html {
+  color: aqua;
+}
+
+div {
+  width: 100px;
+  border: 1px solid black;
+  transition: width .5s ease-in-out;
+}
+
+div:hover {
+  width: 300px;
+}
+
+div,#text01 {
+  color: brown;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: bisque;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px){
+  #text01{
+    font-size: 50px;
+  }
+}
+
+div:hover {
+  font-size: 30px;
+}
+
+em::after{
+  content: "香蕉";
+  font-size: 5px;
+  font-weight: bolder;
+}
